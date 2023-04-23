@@ -1,0 +1,7 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/auth/realms/wardrobe
+          jwk-set-uri: http://localhost:8081/auth/realms/wardrobe/protocol/openid-connect/certs
